@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+![Alt text](./public/images/mockup-app2.jpg "Mockup app in react native")
 ## Available Scripts
 
 In the project directory, you can run:
