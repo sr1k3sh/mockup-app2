@@ -1,0 +1,16 @@
+.places-container{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.places-container img#place-cards{
+    width:175px;
+    height:175px;
+    object-fit: cover;
+    border-radius: 25px;
+   box-shadow: -3px 11px 13px 9px #68739a21;
+    filter: brightness(0.7);
+}

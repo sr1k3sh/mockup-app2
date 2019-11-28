@@ -1,0 +1,36 @@
+.forecast-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding:8px 18px;
+    position: relative;
+}
+.forecast-container .weather-conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forecast-container .small-card img{
+    border-radius: 18px;
+    object-fit: cover;
+    filter:brightness(0.8);
+    box-shadow: -3px 11px 13px 9px #68739a21;
+    filter: brightness(0.7);
+}
+
+.forecast-container .small-card{
+    position: relative;
+}
+.location-div .location-container{
+    background: #ffff;
+    box-shadow: 1px -1px 14px 0px #bbb;
+    border-radius: 8px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom:7%;
+}
+.dynamic-weather-card{
+    position: absolute;
+    bottom:64%;
+}

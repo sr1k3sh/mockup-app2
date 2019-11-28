@@ -1,0 +1,109 @@
+.banner-container{
+    position: relative;
+}
+.banner-container .banner-div{
+    margin: 20px 30px;
+    background: url(/images/bg_image.jpg);
+    height: 280px;
+    border-radius: 14px;
+    position: relative;
+    background-size: cover;
+    background-position: 44%;
+    
+}
+.banner-container .banner-div .profile-div-outer{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.banner-container .banner-div .profile-div-outer .profile-div-inner{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:#fff;
+    overflow: hidden;
+}
+.banner-container .banner-div .profile-div-outer .profile-div-inner img{
+    width:70px; 
+    transform: translate(-10px,0);
+    object-fit: contain;
+}
+.banner-container .banner-div .profile-div-outer::before{
+    content: '';
+    background: #fff;
+    width: 12px;
+    z-index: 10;
+    position: absolute;
+    top: 3px;
+    left:-1px;
+    height: 12px;
+    border-radius: 50%;
+}
+.banner-container .banner-div .profile-div-outer::after{
+    content: '';
+    background: green;
+    width: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 4px;
+    height: 10px;
+    border-radius: 50%;
+}
+.banner-container .banner-forecast-div{
+    position: absolute;
+    top:20%;
+    left:0;
+
+}
+.banner-container .banner-forecast-div .banner-forecast-header{
+    background:#786ae3;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 55px;
+    height: 100px;
+    position: relative;
+    border: none;
+    box-shadow: 5px 20px 20px 8px #3031444d;
+}
+.banner-container .banner-forecast-div .banner-forecast-header .banner-forecast-icon{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:55px;
+    background:#323785;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container .banner-forecast-div .banner-forecast-header .banner-forecast-icon span{
+    font-size: 10px;
+    font-weight: 200;
+    color:#fff;
+}
+.banner-container .banner-forecast-div .banner-forecast-header span#weather-details{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 11px;
+    left: 8px;
+}
+.banner-container .banner-forecast-div .banner-forecast-header::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -10px;
+    background: radial-gradient(circle at top right,transparent 0.7vw, #323785 0.88vw);
+}
+.banner-container .banner-forecast-div .banner-forecast-header::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: -10px;
+    background: radial-gradient(circle at bottom right,transparent 0.7vw, #786ae3 0.88vw);
+}

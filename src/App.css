@@ -1,0 +1,11 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:#c9dae1;
+  height:100vh;
+}

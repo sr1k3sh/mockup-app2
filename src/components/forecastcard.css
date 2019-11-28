@@ -1,0 +1,23 @@
+.forecast-card{
+    display: flex;
+    flex-direction: row;
+    background:#fff;
+    border-radius: 12px;
+    box-shadow: 1px 6px 20px 0px #b5c6cab0;
+    /* padding:10px 6px; */
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.forecast-card .temp-card{
+    background:#786ae3;
+    border-radius: 15px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 1px 8px 6px #786ae31a;
+}
